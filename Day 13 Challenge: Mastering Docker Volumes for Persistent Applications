@@ -1,0 +1,5 @@
+Steps to set up Docker volumes
+
+- docker volume create pg-data
+  docker volume create redis-server
+
