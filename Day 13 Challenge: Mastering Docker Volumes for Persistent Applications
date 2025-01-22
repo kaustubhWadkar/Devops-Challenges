@@ -3,3 +3,9 @@ Steps to set up Docker volumes
 - docker volume create pg-data
   docker volume create redis-server
 
+Learnings about how Docker volumes work
+1] Docker volumes are presistant data storage for docker containers, even the container stop or newly created volume data remains same.
+2] to cretae docker volume , " docker volume create <volume_name> " command used.
+3] to inspect the docker volume " docker volume inspect <volume_name> " command used.
+4] to remove docker volume " docker volume rm <volume_name> " command used.
+5] docker volume cant be attached to currently running conatainer directly.
